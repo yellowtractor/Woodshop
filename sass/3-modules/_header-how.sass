@@ -1,0 +1,39 @@
+// header 3 - for 'how it works' and 'story' pages
+
+.header-how
+	position: relative
+	min-height: 450px
+	
+	background:
+		color: #45413F
+		image: url('http://localhost:8888/wp-content/themes/garyt/assets/img/wood3.jpg')
+		size: cover
+		position: right top
+	overflow: hidden
+	z-index: 2
+
+
+
+
+
+	
+
+/* tablet - with hamburger icon showing */
+@media (min-width: 700px)
+
+	.header-how
+		min-height: 650px
+		
+		background:
+			position: right top
+		z-index: 1 
+
+		.main-navigation a 
+			text-shadow: 2px 2px 30px rgba(0,0,0,0.9)
+			color: white
+		.main-navigation .current_page_item > a,
+		.main-navigation .current-menu-item > a,
+		.main-navigation .current_page_ancestor > a 
+			border-bottom: solid 2px rgba(224,214,193,1)
+
+	

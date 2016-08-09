@@ -1,0 +1,109 @@
+/*!
+Theme Name: garyt
+Theme URI: http://underscores.me/
+Author: Paul Thomson
+Author URI: http://www.yellowtractor.co.uk
+Description: Furniture design website for Gary T
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: garyt
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+garyt is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> CONTENTS:  Paul T, Yellow Tractor
+----------------------------------------------------------------
+1 - TOOLS
+	Variables
+	Normalize
+	Grid
+
+
+2 - BASICS
+	Typography
+	Body 
+	Elements - (html, img, hr, lists..)
+	WP Layout - (sidebars)
+	WP Site - (posts, comments..)
+	Page Structure - (container, align, section, article)
+	Buttons
+	Links
+
+3 - MODULES
+	WP Nav
+	Headers
+	Footer
+	Callouts
+	Media
+	Flex Video
+	WP Extras
+
+4 - PAGES
+	Homepage
+	Story 
+	How it works
+	Enquiries
+	Sale Items
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+// 1 - TOOLS
+--------------------------------------------------------------*/
+@import "1-tools/vars";
+@import "1-tools/mixins";
+@import "1-tools/bourbon/bourbon";
+@import "1-tools/fonts";
+@import "1-tools/normalize";
+@import "1-tools/toast-grid";
+
+
+/*--------------------------------------------------------------
+// 2 - BASICS
+--------------------------------------------------------------*/
+@import "2-basics/typography";
+@import "2-basics/body";
+@import "2-basics/elements";
+@import "2-basics/wp-layout";
+@import "2-basics/wp-site";
+@import "2-basics/structure";
+@import "2-basics/buttons";
+@import "2-basics/links";
+
+
+/*--------------------------------------------------------------
+// 3 - Modules
+--------------------------------------------------------------*/
+
+@import "3-modules/header-hero";
+@import "3-modules/header-minimal";
+@import "3-modules/header-enquiries";
+@import "3-modules/header-story";
+@import "3-modules/header-how";
+@import "3-modules/wp-nav";
+@import "3-modules/wp-extras";
+@import "3-modules/wp-media";
+@import "3-modules/footer";
+@import "3-modules/callout";
+@import "3-modules/media";
+@import "3-modules/flex-video";
+@import "3-modules/overlays";
+@import "3-modules/name-lockup";
+
+/*--------------------------------------------------------------
+// 4 - pages
+--------------------------------------------------------------*/
+@import "4-pages/page-home";
+@import "4-pages/page-enquiries";
+@import "4-pages/page-story";
+@import "4-pages/page-how";

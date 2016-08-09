@@ -21,10 +21,33 @@ get_header(hero); ?>
      <h2 class="wrap--title">Hand Crafted. Made to Fit.</h2>
 	  <div class="media container">
 		<div class="row">
-		<div class="col col--12-of-12"><img src="http://www.garythomson.co.uk/wp-content/themes/garyt/assets/img/alcoves.jpg" alt="alcoves" /></div>
+		<div class="col col--3-of-12 alcove"><img src="http://www.garythomson.co.uk/wp-content/themes/garyt/assets/img/alcove-light.jpg" alt="alcove" /></div>
+
+
+    <div class="col col--6-of-12 alcove-text">
+        
+      <h4 class="alcove--title-1">Made to Measure</h4>
+
+      <div class="alcove--title-2-wrap">
+      <h2 class="alcove--title-2">Alcove</h2>
+      <h2 class="alcove--title-2b">Furniture</h2>
+    </div>
+      <div class="alcove--title-3-wrap">
+      <h3 class="alcove--title-3">Living Rooms</h3>
+      <hr>
+      <h3 class="alcove--title-3">Libraries</h3>
+      <hr>
+      <h3 class="alcove--title-3">Bedrooms</h3>
+      <hr>
+    </div>
+    </div>
+
+    <div class="col col--3-of-12 alcove"><img src="http://www.garythomson.co.uk/wp-content/themes/garyt/assets/img/alcove-dark.jpg" alt="alcove" /></div>
 		</div>
 	 </div>
     </div>
+
+
 	<div class="wrap-library">
 	  <h2 class="wrap--title">Featured Example.</h2>
 		<div class=" media container">
@@ -71,7 +94,7 @@ get_header(hero); ?>
 
    <div class="wrap-latest">
       <h2 class="wrap--title">Latest.</h2>
-     <div class="container">
+     <div class="latest">
 
 
 

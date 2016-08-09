@@ -1,0 +1,38 @@
+a
+  color: $link3-color
+  text-decoration: none
+  font-weight: 400
+  outline: 0
+  padding-bottom: 3px
+
+ 
+
+  &:hover,
+  &:focus
+    color: rgba(0,0,0,0.8)
+    border-bottom: solid 2px rgba(0,0,0,0.2)
+    padding-bottom: 3px
+    outline: 0
+
+  &:focus
+    outline: thin dotted
+
+
+
+
+// selection-color
+
+::selection
+  background: $selection-color
+
+::-moz-selection
+  background: $selection-color
+
+img::selection
+  background: transparent
+
+img::-moz-selection
+  background: transparent
+
+body
+  -webkit-tap-highlight-color: $selection-color

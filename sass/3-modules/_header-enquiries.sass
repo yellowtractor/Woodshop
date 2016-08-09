@@ -1,0 +1,36 @@
+// header module
+// mobile first
+.header-enquiries
+  position: relative
+  height: 450px 
+  background:
+    color: #45413F
+    image: url('http://localhost:8888/wp-content/themes/garyt/assets/img/garyt-sideboard-sm.jpg')
+    size: cover
+    position: left center
+  overflow: hidden
+  z-index: 1
+
+  .main-navigation a 
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.9)
+    color: white
+  .main-navigation .current_page_item > a,
+  .main-navigation .current-menu-item > a,
+  .main-navigation .current_page_ancestor > a 
+    border-bottom: solid 2px rgba(224,214,193,1)
+
+
+/* tablet - with hamburger icon showing */
+@media (min-width: 700px)
+
+  .header-enquiries
+    height: 550px
+    background:
+      color: #45413F
+      image: url('http://localhost:8888/wp-content/themes/garyt/assets/img/sideboard.jpg')
+      position: right top
+    z-index: 1 
+
+
+
+

@@ -164,9 +164,11 @@ add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
 
 function wpb_add_google_fonts() {
 
-wp_enqueue_style( 'wpb-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:400,700,300', false );
+wp_enqueue_style( 'wpb-google-fonts', 'http://fonts.googleapis.com/css?family=Lato:400,700,300|Merriweather:400', false );
 }
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
+
 
 /**
  * Removes width and height attributes from image tags

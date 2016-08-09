@@ -1,0 +1,121 @@
+//	Headings
+
+.gigantic, .huge, .large, .bigger, .big,
+h1, h2, h3, h4, h5, h6
+
+	color: $headline-color
+	font-weight: bold
+
+.gigantic
+	font-size: 110px
+	line-height: 1.09
+	letter-spacing: -2px
+
+.huge, h1
+	font-size: 68px
+	line-height: 1.05
+	letter-spacing: .2px
+
+.large, h2
+	font-size: 37px
+	line-height: 1.14
+	letter-spacing: .6px
+
+.bigger, h3
+	font-size: 30px
+	line-height: 1
+	letter-spacing: .9px
+
+.big, h4
+	font-size: 22px
+	line-height: 1.38
+	letter-spacing: .6px
+
+.small, small
+	font-size: 10px
+	line-height: 1.2
+
+
+// Basic Text Style
+
+p
+	font-family: $font__main
+	color: #333
+	color: rgba(0,0,0,0.6)
+	font-size: 20px
+	font-weight: 500
+	line-height: 1.6
+	margin-top: 0px
+	
+ 
+
+strong
+	font-weight: bold
+
+dfn, cite, em, i
+	font-style: italic
+
+
+
+blockquote, q 
+	quotes: "" ""
+
+	&:before,
+	&:after 
+		content: ""
+	
+
+
+blockquote, q 
+	font-family: $font__2
+	color: #7c725d
+	quotes: "" ""
+	font-size: 1.6em
+	border-left: solid 8px $purple
+	padding: 1.2em 0.4em 1.1em 1.4em
+	margin-top: 1.8em
+	margin-bottom: 1.6em
+	margin-left: 0em
+	border-radius: 5px
+	background-color: white
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.1)
+
+
+.drop-cap 
+	float: left
+	color: #968D74
+	font-size: 4em
+	line-height: 60px
+	padding-top: 6px
+	padding-right: 8px
+	padding-left: 3px
+	font-family: Georgia
+
+address
+	margin: 0 0 1.5em
+
+
+pre
+	background: $color__background-pre
+	font-family: $font__pre
+	@include font-size(0.9375)
+	line-height: $font__line-height-pre
+	margin-bottom: 1.6em
+	max-width: 100%
+	overflow: auto
+	padding: 1.6em
+
+
+code, kbd, tt, var
+	font-family: $font__code
+	@include font-size(0.9375)
+
+
+abbr, acronym
+	border-bottom: 1px dotted $color__border-abbr
+	cursor: help
+
+
+mark, ins
+	background: $color__background-ins
+	text-decoration: none
